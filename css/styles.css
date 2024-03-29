@@ -1,0 +1,86 @@
+:root {
+    --peach: #f9dbbd;
+    --lightPink: #ffa5ab;
+    --medPink: #da627d;
+    --darkPink: #a53860;
+    --magenta: #450920;
+    --white: #fff;
+    --black: #000;
+}
+
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400);
+
+body {
+font: normal normal 13px/16px "Open Sans", sans-serif;
+background: var(--peach);
+}
+
+h2, 
+p {
+    color: var(--white);
+    margin-top: 0;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+.container{
+padding: 20px;
+width: 300px;
+margin: 0 auto;
+margin-top: 60px;
+background: var(--magenta);
+border-radius: 5px;}
+
+form {
+display: inline-block;
+}
+
+input{
+padding: 4px 15px 4px 5px;
+}
+
+#button{
+display: inline-block;
+background-color:var(--lightPink);
+color: var(--black);
+border-radius: 5px;
+font-weight:bold;
+text-align:center;
+margin-top:2px;
+margin-left: 25px;
+padding: 5px 25px;
+}
+
+#button:hover{
+cursor: pointer;
+opacity: .8;}
+
+ol {padding-left: 20px;}
+
+ol li {padding: 5px;color:var(--white);}
+
+ol li:nth-child(even){background: var(--darkPink);}
+
+.strike{text-decoration: line-through;}
+.no-strike{text-decoration: none;}
+
+
+li:hover{
+  cursor: pointer;
+ }
+
+.delete {
+	display: none;
+}
+
+.crossOutButton {
+	background: var(--medPink);
+    color: var(--peach);
+	border: none;
+	float: right;
+	font-weight: 650;
+}
+
